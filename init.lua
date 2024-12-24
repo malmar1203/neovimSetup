@@ -27,6 +27,7 @@ vim.opt.backspace =indent,eol,start
 vim.opt.laststatus =2
 vim.opt.showmode =true
 vim.opt.showcmd =true
+vim.cmd [[set statusline=%F]]
 
 
 vim.g.mapleader =" "
@@ -51,8 +52,8 @@ vim.keymap.set("n", "<leader>ew",
 )
 
 
-vim.cmd [[cd ~/tasks]]
-vim.cmd [[colorscheme retrobox]]
+vim.cmd [[cd ~/qwerty]]
+vim.cmd [[colorscheme elflord]]
 vim.cmd [[autocmd InsertEnter * set cursorcolumn]]
 vim.cmd [[autocmd InsertLeave * set nocursorcolumn]]
 
